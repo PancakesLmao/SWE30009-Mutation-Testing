@@ -1,0 +1,28 @@
+{
+  "name": "cycle_sort_test",
+  "version": "1.0.0",
+  "description": "This repo used source code from https://github.com/TheAlgorithms/TypeScript/blob/master/sorts/cycle_sort.ts for testing purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PancakesLmao/SWE30009-Mutation-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PancakesLmao/SWE30009-Mutation-Testing/issues"
+  },
+  "homepage": "https://github.com/PancakesLmao/SWE30009-Mutation-Testing#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^8.7.1",
+    "@stryker-mutator/jest-runner": "^8.7.1",
+    "@stryker-mutator/typescript": "^4.0.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.0"
+  }
+}
