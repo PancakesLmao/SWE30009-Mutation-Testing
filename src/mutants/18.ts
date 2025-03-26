@@ -44,15 +44,7 @@ function CountSmallerItems(
   startIndex: number,
   currentItem: number
 ): number {
-  let elementsCount: number = 0
-
-  for (let i: number = startIndex + 1; i < array.length; i++) {
-    if (currentItem > array[i]) {
-      elementsCount++
-    }
-  }
-
-  return elementsCount
+  
 }
 
 function SkipDuplicates(

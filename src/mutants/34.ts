@@ -61,7 +61,7 @@ function SkipDuplicates(
   currentItem: number
 ): number {
   while (array[currentPosition] == currentItem) {
-    currentPosition++
+    
   }
 
   return currentPosition

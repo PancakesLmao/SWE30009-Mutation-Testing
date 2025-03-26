@@ -8,7 +8,7 @@
  */
 
 export const cycleSort = (array: number[]) => {
-  for (let i: number = 0; i < array.length - 1; i++) {
+  for (let i: number = 0; i < array.length + 1; i++) {
     MoveCycle(array, i)
   }
   return array

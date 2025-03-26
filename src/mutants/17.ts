@@ -30,7 +30,7 @@ function MoveCycle(array: number[], startIndex: number): void {
 
   while (nextChangeIndex != startIndex) {
     nextChangeIndex =
-      startIndex + CountSmallerItems(array, startIndex, currentItem)
+      startIndex - CountSmallerItems(array, startIndex, currentItem)
     nextChangeIndex = SkipDuplicates(array, nextChangeIndex, currentItem)
 
     tmp = array[nextChangeIndex]

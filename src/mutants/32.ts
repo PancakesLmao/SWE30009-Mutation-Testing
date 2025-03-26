@@ -60,8 +60,8 @@ function SkipDuplicates(
   currentPosition: number,
   currentItem: number
 ): number {
-  while (array[currentPosition] == currentItem) {
-    currentPosition++
+  while (false) {
+    currentPosition++ //this part is unreachable
   }
 
   return currentPosition

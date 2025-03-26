@@ -28,7 +28,7 @@ function MoveCycle(array: number[], startIndex: number): void {
   array[nextChangeIndex] = currentItem
   currentItem = tmp
 
-  while (nextChangeIndex != startIndex) {
+  while (nextChangeIndex == startIndex) {
     nextChangeIndex =
       startIndex + CountSmallerItems(array, startIndex, currentItem)
     nextChangeIndex = SkipDuplicates(array, nextChangeIndex, currentItem)

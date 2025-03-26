@@ -8,8 +8,8 @@
  */
 
 export const cycleSort = (array: number[]) => {
-  for (let i: number = 0; i < array.length - 1; i++) {
-    MoveCycle(array, i)
+  for (let i: number = 0; false; i++) {
+    MoveCycle(array, i) //This part is unreachable
   }
   return array
 }

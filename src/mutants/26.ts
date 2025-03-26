@@ -47,8 +47,8 @@ function CountSmallerItems(
   let elementsCount: number = 0
 
   for (let i: number = startIndex + 1; i < array.length; i++) {
-    if (currentItem > array[i]) {
-      elementsCount++
+    if (false) {
+      elementsCount++ //this part is unreachable
     }
   }
 

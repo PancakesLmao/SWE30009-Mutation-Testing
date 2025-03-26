@@ -29,13 +29,7 @@ function MoveCycle(array: number[], startIndex: number): void {
   currentItem = tmp
 
   while (nextChangeIndex != startIndex) {
-    nextChangeIndex =
-      startIndex + CountSmallerItems(array, startIndex, currentItem)
-    nextChangeIndex = SkipDuplicates(array, nextChangeIndex, currentItem)
-
-    tmp = array[nextChangeIndex]
-    array[nextChangeIndex] = currentItem
-    currentItem = tmp
+    
   }
 }
 

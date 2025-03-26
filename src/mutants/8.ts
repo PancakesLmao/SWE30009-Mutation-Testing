@@ -15,28 +15,7 @@ export const cycleSort = (array: number[]) => {
 }
 
 function MoveCycle(array: number[], startIndex: number): void {
-  let currentItem: number = array[startIndex]
-  let nextChangeIndex: number =
-    startIndex + CountSmallerItems(array, startIndex, currentItem)
-  if (nextChangeIndex == startIndex) {
-    return
-  }
-
-  nextChangeIndex = SkipDuplicates(array, nextChangeIndex, currentItem)
-
-  let tmp: number = array[nextChangeIndex]
-  array[nextChangeIndex] = currentItem
-  currentItem = tmp
-
-  while (nextChangeIndex != startIndex) {
-    nextChangeIndex =
-      startIndex + CountSmallerItems(array, startIndex, currentItem)
-    nextChangeIndex = SkipDuplicates(array, nextChangeIndex, currentItem)
-
-    tmp = array[nextChangeIndex]
-    array[nextChangeIndex] = currentItem
-    currentItem = tmp
-  }
+  
 }
 
 function CountSmallerItems(

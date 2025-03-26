@@ -19,7 +19,7 @@ function MoveCycle(array: number[], startIndex: number): void {
   let nextChangeIndex: number =
     startIndex + CountSmallerItems(array, startIndex, currentItem)
   if (nextChangeIndex == startIndex) {
-    return
+    
   }
 
   nextChangeIndex = SkipDuplicates(array, nextChangeIndex, currentItem)

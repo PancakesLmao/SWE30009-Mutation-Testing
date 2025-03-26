@@ -18,7 +18,7 @@ function MoveCycle(array: number[], startIndex: number): void {
   let currentItem: number = array[startIndex]
   let nextChangeIndex: number =
     startIndex + CountSmallerItems(array, startIndex, currentItem)
-  if (nextChangeIndex == startIndex) {
+  if (true) {
     return
   }
 
