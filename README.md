@@ -3,17 +3,17 @@ This repo used source code from https://github.com/TheAlgorithms/TypeScript/blob
 # Mutation Testing with StrykerJS for TypeScript
 
 How to set up **mutation testing** for a **TypeScript** program (`cycle_sort.ts`) using **StrykerJS**.
-```
+
 
 ## 1. Initialize a TypeScript Project
 Navigate to your project directory and run:
-```sh
+```
 npm init -y
 ```
 
 ## 2. Install StrykerJS and Dependencies
 Run:
-```sh
+```
 npm install --save-dev @stryker-mutator/core @stryker-mutator/typescript @stryker-mutator/jest-runner jest ts-jest @types/jest
 ```
 
