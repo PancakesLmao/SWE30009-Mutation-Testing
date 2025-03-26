@@ -40,10 +40,10 @@ Choose:
 - **Checkers & transpilers:** Select `typescript`
 - **Save configuration:** Yes
 
-This generates `stryker.conf.json`.
+This generates `stryker.conf.json`/ `stryker.config.mjs`.
 
 ## 5. Modify Stryker Configuration
-Ensure `stryker.conf.json` looks like this:
+Ensure `stryker.conf.json`/ `stryker.config.mjs` looks like this:
 ```json
 {
   "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
