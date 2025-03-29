@@ -37,6 +37,7 @@ Choose:
 - **Test framework:** `jest`
 - **Mutate source files:** `src/cycle_sort.ts`
 - **Reporters:** Choose `html`, `clear-text`, `progress`
+- **Mutation test report:** `report/mutation.html`
 - **Checkers & transpilers:** Select `typescript`
 - **Save configuration:** Yes
 
